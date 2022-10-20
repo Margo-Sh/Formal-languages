@@ -1,0 +1,3 @@
+/home/margo/Documents/Formal_languages/task_1/00-start-test/cmake-build-debug/CMakeFiles/00_start_test.dir
+/home/margo/Documents/Formal_languages/task_1/00-start-test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/margo/Documents/Formal_languages/task_1/00-start-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
