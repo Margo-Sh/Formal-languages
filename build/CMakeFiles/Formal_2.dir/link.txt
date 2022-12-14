@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O0 -fprofile-arcs -ftest-coverage   CMakeFiles/Formal_2.dir/run_test.cpp.o CMakeFiles/Formal_2.dir/TestAdd.cpp.o CMakeFiles/Formal_2.dir/Grammar.cpp.o CMakeFiles/Formal_2.dir/Chomsky.cpp.o CMakeFiles/Formal_2.dir/CYK.cpp.o  -o Formal_2  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

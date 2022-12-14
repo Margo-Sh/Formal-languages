@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/margo/Documents/Formal_languages/task_2/CYK.cpp
+CYK.h
+/home/margo/Documents/Formal_languages/task_2/CYK.h
+
+/home/margo/Documents/Formal_languages/task_2/CYK.h
+Chomsky.h
+/home/margo/Documents/Formal_languages/task_2/Chomsky.h
+
+/home/margo/Documents/Formal_languages/task_2/Chomsky.h
+Grammar.h
+/home/margo/Documents/Formal_languages/task_2/Grammar.h
+set
+-
+stack
+-
+
+/home/margo/Documents/Formal_languages/task_2/Grammar.h
+iostream
+-
+vector
+-
+
+/home/margo/Documents/Formal_languages/task_2/TestAdd.cpp
+TestAdd.h
+/home/margo/Documents/Formal_languages/task_2/TestAdd.h
+CYK.h
+/home/margo/Documents/Formal_languages/task_2/CYK.h
+
+/home/margo/Documents/Formal_languages/task_2/TestAdd.h
+gtest/gtest.h
+-
+
