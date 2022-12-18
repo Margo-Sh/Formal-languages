@@ -4,16 +4,17 @@ Tasks for formal languages class
 ![image](https://user-images.githubusercontent.com/67891965/195706145-d8bdcc7a-00ab-4d2a-a57c-685efa2208c6.png)
 
 
-My solution:
+Мое решение:
 
-n -- length of u
+n -- длина слова u
 
-f_L (i, j) = 0 or 1 depending on whether u[i...j-1] suits L or not.
+f_L (i, j) = 0 или 1 в зависимости от того подходит u[i...j-1] выражению L или нет.
+Значения f_L задаются таблицей n * n.
 
-f_(L1 + L2) can be calculated from f_L1 and f_L2 in O(n^2)
+f_(L1 + L2) можно посчитать через f_L1 и f_L2 за O(n^2)
 
-f_(L1 * L2) can be calculated from f_L1 and f_L2 in O(n^3)
+f_(L1 * L2) можно посчитать через f_L1 и f_L2 за O(n^3)
 
-f_(L1^*) can be calculated from f_L1 in O(n^4).
+f_(L1^*) можно посчитать через f_L1 за O(n^4), так как для слова длины n нет смысла рассматривать L1^m m > n. Чтобы посчитать $\epsilon$ + L1 + L1^2 + ... + L1^n, достаточно сделать n+1 операцию сложения (работает за O(n^3)) и n операций умножения для подсчета L1^n (работает за O(n^4)).
 
 Таким образом, находим для альфа значение f за O(длина альфа * n^4)
